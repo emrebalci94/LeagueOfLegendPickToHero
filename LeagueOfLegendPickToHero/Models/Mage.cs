@@ -8,20 +8,15 @@ namespace LeagueOfLegendPickToHero.Models
 {
     class Mage : Hero
     {
-        private readonly HeroTypes _type;
         public Mage(HealthTypes health)
-        {
-
-            Name = HeroNameHelper.Instance.GetToRandomName();
-            AttackPower = RandomHelper.Instance.Next(100);
-            Hp = RandomHelper.Instance.Next(100);
-            _type = HeroTypes.Mage;
+        {       
+            Type = HeroTypes.Mage;
             switch (health)
             {
-                case HealthTypes.MaviBuyu:
+                case HealthTypes.BlueSpell:
                     Hp += 50;
                     break;
-                case HealthTypes.YesilBuyu:
+                case HealthTypes.GreenSpell:
                     Hp += 30;
                     break;
                 default:
@@ -30,9 +25,5 @@ namespace LeagueOfLegendPickToHero.Models
             }
         }
 
-        public override string GetToStatistics()
-        {
-            return $"Tip:{_type}\nİsim:{Name}\nSağlık:{Hp}\nAtak Gücü:{AttackPower}";
-        }
     }
 }
