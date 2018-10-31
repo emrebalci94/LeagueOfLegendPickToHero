@@ -1,0 +1,12 @@
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\bin\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.deps.json
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\bin\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.runtimeconfig.json
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\bin\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.runtimeconfig.dev.json
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\bin\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.dll
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\bin\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.pdb
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\obj\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.csprojAssemblyReference.cache
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\obj\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.csproj.CoreCompileInputs.cache
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\obj\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.AssemblyInfoInputs.cache
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\obj\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.AssemblyInfo.cs
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\obj\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.dll
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\obj\Debug\netcoreapp2.1\LeagueOfLegendPickToHero.pdb
+C:\Users\EXT02D13704\source\repos\LeagueOfLegendPickToHero\LeagueOfLegendPickToHero\bin\Debug\netcoreapp2.1\Helper\heroNames.txt
