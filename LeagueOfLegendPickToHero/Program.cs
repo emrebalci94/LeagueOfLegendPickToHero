@@ -39,11 +39,6 @@ namespace LeagueOfLegendPickToHero
             Console.WriteLine("--------------------------------------------------------------------");
             Console.WriteLine("-------------------KAPATMAK İÇİN BİR TUŞA BASINIZ-------------------");
 
-            //Hero Creater diye bir class yaratıp ordan getiricez.
-
-            //Hero hero = new Warrior();
-            //Console.WriteLine(hero.AttackPower);
-            //Console.WriteLine(hero.Hp);
             Console.ReadKey();
         }
     }
