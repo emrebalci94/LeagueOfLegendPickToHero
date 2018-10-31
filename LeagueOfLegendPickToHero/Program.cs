@@ -2,7 +2,10 @@
 using LeagueOfLegendPickToHero.Models;
 using LeagueOfLegendPickToHero.Models.Enums;
 using System;
+using System.ComponentModel;
+using System.Globalization;
 using System.IO;
+using System.Linq;
 
 namespace LeagueOfLegendPickToHero
 {
@@ -10,10 +13,9 @@ namespace LeagueOfLegendPickToHero
     {
         static void ForEachToEnum(Type _enum)
         {
-            foreach (var item in Enum.GetValues(_enum))
+            foreach (IConvertible item in Enum.GetValues(_enum))
             {
-                Console.Write($"{item}({(int)item}) \t");
-
+                Console.Write($"{item.GetDescription()}({(int)item}) \t");
             }
         }
 
@@ -25,7 +27,7 @@ namespace LeagueOfLegendPickToHero
 
             foreach (HeroTypes item in Enum.GetValues(typeof(HeroTypes)))
             {
-                Console.Write($"{item}({(int)item}) \t");
+                Console.Write($"{item.GetDescription()}({(int)item}) \t");
 
             }
             Console.Write("\t :");

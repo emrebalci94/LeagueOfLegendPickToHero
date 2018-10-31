@@ -8,20 +8,15 @@ namespace LeagueOfLegendPickToHero.Models
 {
     class Support : Hero
     {
-        private readonly HeroTypes _type;
         public Support(WeaponTypes weapon)
         {
-
-            Name = HeroNameHelper.Instance.GetToRandomName();
-            AttackPower = RandomHelper.Instance.Next(100);
-            Hp = RandomHelper.Instance.Next(100);
-            _type = HeroTypes.Support;
+            Type = HeroTypes.Support;
             switch (weapon)
             {
-                case WeaponTypes.Kılıç:
+                case WeaponTypes.Sword:
                     AttackPower += 10;
                     break;
-                case WeaponTypes.Silah:
+                case WeaponTypes.Pistol:
                     AttackPower += 20;
                     break;
                 default:
@@ -31,9 +26,5 @@ namespace LeagueOfLegendPickToHero.Models
 
         }
 
-        public override string GetToStatistics()
-        {
-            return $"Tip:{_type}\nİsim:{Name}\nSağlık:{Hp}\nAtak Gücü:{AttackPower}";
-        }
     }
 }

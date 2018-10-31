@@ -9,20 +9,15 @@ namespace LeagueOfLegendPickToHero.Models
 {
     class Warrior : Hero
     {
-        private readonly HeroTypes _type;
         public Warrior(WeaponTypes weapon,HealthTypes health)
         {
-
-            Name = HeroNameHelper.Instance.GetToRandomName();
-            AttackPower = RandomHelper.Instance.Next(100);
-            Hp = RandomHelper.Instance.Next(100);
-            _type = HeroTypes.Warrior;
+            Type = HeroTypes.Warrior;
             switch (weapon)
             {
-                case WeaponTypes.Kılıç:
+                case WeaponTypes.Sword:
                     AttackPower += 20;
                     break;
-                case WeaponTypes.Silah:
+                case WeaponTypes.Pistol:
                     AttackPower += 50;
                     break;
                 default:
@@ -32,10 +27,10 @@ namespace LeagueOfLegendPickToHero.Models
 
             switch (health)
             {
-                case HealthTypes.MaviBuyu:
+                case HealthTypes.BlueSpell:
                     Hp += 10;
                     break;
-                case HealthTypes.YesilBuyu:
+                case HealthTypes.GreenSpell:
                     Hp += 5;
                     break;
                 default:
@@ -44,9 +39,5 @@ namespace LeagueOfLegendPickToHero.Models
             }
         }
 
-        public override string GetToStatistics()
-        {
-            return $"Tip:{_type}\nİsim:{Name}\nSağlık:{Hp}\nAtak Gücü:{AttackPower}";
-        }
     }
 }
