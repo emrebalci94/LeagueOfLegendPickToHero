@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXT02D13704\\source\\repos\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero.csproj",
+      "projectUniqueName": "C:\\Users\\EXT02D13704\\Desktop\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero.csproj",
       "projectName": "LeagueOfLegendPickToHero",
-      "projectPath": "C:\\Users\\EXT02D13704\\source\\repos\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero.csproj",
+      "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero.csproj",
       "packagesPath": "C:\\Users\\EXT02D13704\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXT02D13704\\source\\repos\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero\\obj\\",
+      "outputPath": "C:\\Users\\EXT02D13704\\Desktop\\LeagueOfLegendPickToHero\\LeagueOfLegendPickToHero\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
